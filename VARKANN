@@ -1,0 +1,302 @@
+if os.date("%Y%m%d") >= "20210101" then
+print("⚠️ sᴄʀɪᴘᴛ sᴜʀᴇsɪ ʙɪᴛᴍɪsᴛɪʀ  ⚠️️")
+return gg.alert("⚠️ sᴄʀɪᴘᴛ sᴜʀᴇsɪ ʙɪᴛᴍɪsᴛɪʀ  ⚠️️")
+end--Iғ
+nick ="BYNOPANİK"
+
+id ="HACK"
+
+Result=gg.prompt({'KULLANICI ADI','ŞİFRE'},Nil,{'text','text'})
+if Result[1] ==nick and Result[2] == id then
+
+gg.alert('VİP SCRİPTE HOŞGELDİNİZ')
+else
+
+gg.alert('BYNOPANİK VİP HACK')
+return
+
+end
+gg.toast("BYNOPANİK VİP SCRİPT")
+gg.sleep(500)
+gg.clearResults()
+function HOME()
+MN = gg.multiChoice({
+'╔✧[İlk Giriş] 『🇹🇷』\n╚✧ANTİBAN 1⚡',
+'╔✧[ Lobi ] 『🇹🇷』\n╚✧ANTİBAN 2⚡',
+'╔✧[ Ada ] 『🇹🇷』\n╚✧ANTİBAN 3⚡',
+'╔✧[ Lobi ] 『🇹🇷』\n╚✧SEKMEME⚡',
+'╔✧[ oyun ] 『🇹🇷』\n╚✧WALLHACK⚡',
+'╔✧[ oyun ] 『🇹🇷』\n╚✧ANTEN⚡',
+'╔✧[ oyun ] 『🇹🇷』\n╚✧SİYAH GÖKYÜZÜ⚡',
+'╔✧[ Lobi ] 『🇹🇷』\n╚✧SİHİRLİ MERMİ⚡',
+'╔✧[ Lobi ] 『🇹🇷』\n╚✧AİMBOT 360°⚡',
+'╔✧\n╚ÇIKIŞ',
+},nil, (os.date("CODER @BYNOPANİK")))
+if MN == nil then
+else
+if MN[1] == true then A()end
+if MN[2] == true then B()end
+if MN[3] == true then C()end
+if MN[4] == true then D()end
+if MN[5] == true then E()end
+if MN[6] == true then F()end
+if MN[7] == true then G()end
+if MN[8] == true then H()end
+if MN[9] == true then K()end
+if MN[10] == true then EXIT()end
+end
+JOKER = -1
+end
+
+function A()
+gg.clearResults()
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("196,864;16,842,753::5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) 
+if gg.getResultCount() == 0 then
+else
+gg.searchNumber("196,864", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+n = gg.getResultCount()
+jz = gg.getResults(n)
+for i = 1, n do
+gg.addListItems({[1] = {address = jz[i].address + 236,flags = 4,freeze = true,value = 67109633}})
+gg.addListItems({[1] = {address = jz[i].address + 232,flags = 4,freeze = true,value = 67109633}})
+gg.addListItems({[1] = {address = jz[i].address + 228,flags = 4,freeze = true,value = 67109633}})
+gg.addListItems({[1] = {address = jz[i].address + 340,flags = 4,freeze = true,value = 67109633}})
+gg.addListItems({[1] = {address = jz[i].address + 344,flags = 4,freeze = true,value = 67109633}})
+end
+end
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("133634;134914", gg.TYPE_DWORD)
+gg.refineNumber("133634", gg.TYPE_DWORD)
+gg.getResults(50500)
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("134914;131330", gg.TYPE_DWORD)
+gg.refineNumber("134914", gg.TYPE_DWORD)
+gg.getResults(50500)
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131586;131842", gg.TYPE_DWORD)
+gg.refineNumber("131586", gg.TYPE_DWORD)
+gg.getResults(50500)
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("132098;133635", gg.TYPE_DWORD)
+gg.refineNumber("132098", gg.TYPE_DWORD)
+gg.getResults(50500)
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function B()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("196,864;16,842,753::5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) 
+if gg.getResultCount() == 0 then
+else
+gg.searchNumber("196,864", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+n = gg.getResultCount()
+jz = gg.getResults(n)
+for i = 1, n do
+gg.addListItems({[1] = {address = jz[i].address + 236,flags = 4,freeze = true,value = 67109633}})
+gg.addListItems({[1] = {address = jz[i].address + 232,flags = 4,freeze = true,value = 67109633}})
+gg.addListItems({[1] = {address = jz[i].address + 228,flags = 4,freeze = true,value = 67109633}})
+gg.addListItems({[1] = {address = jz[i].address + 340,flags = 4,freeze = true,value = 67109633}})
+gg.addListItems({[1] = {address = jz[i].address + 344,flags = 4,freeze = true,value = 67109633}})
+end
+end
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("133634;134914", gg.TYPE_DWORD)
+gg.refineNumber("133634", gg.TYPE_DWORD)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "67109633"
+v.freeze = true
+end                                     
+end                                     
+gg.addListItems(t)
+t = nil
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("134914;131330", gg.TYPE_DWORD)
+gg.refineNumber("134914", gg.TYPE_DWORD)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "67109633"
+v.freeze = true
+end                                     
+end                                     
+gg.addListItems(t)
+t = nil
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131586;131842", gg.TYPE_DWORD)
+gg.refineNumber("131586", gg.TYPE_DWORD)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "67109633"
+v.freeze = true
+end                                     
+end                                     
+gg.addListItems(t)
+t = nil
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("132098;133635", gg.TYPE_DWORD)
+gg.refineNumber("132098", gg.TYPE_DWORD)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "67109633"
+v.freeze = true
+end                                     
+end                                     
+gg.addListItems(t)
+t = nil
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function C()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("133634;134914", gg.TYPE_DWORD)
+gg.refineNumber("133634", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("134914;131330", gg.TYPE_DWORD)
+gg.refineNumber("134914", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131586;131842", gg.TYPE_DWORD)
+gg.refineNumber("131586", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("132098;133635", gg.TYPE_DWORD)
+gg.refineNumber("132098", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function D()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("-309056968;-298841599;-309061065", gg.TYPE_DWORD)
+gg.searchNumber("-298841599", gg.TYPE_DWORD)
+HJK1 = gg.getResults(3) 
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+
+gg.toast("SEKMEME")
+end
+
+function E()
+gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("228;1,073,741,824;1,073,741,824;229;-1,082,130,432:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1,073,741,824", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("1,123,024,896", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Wallhack SD400 activated!\nBYNOPANIK")
+end
+
+function F()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("88.50576019287F;87.27782440186F;-100.91194152832F;1F::13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("88.50576019287F;87.27782440186F;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+AN1 =gg.getResults(6)
+gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", gg.TYPE_FLOAT)
+gg.clearResults()
+end
+
+function G()
+gg.clearResults()
+karar = {
+{["memory"] = 32},
+{["name"] = "Blacksky"},
+{["value"] = 1028443341, ["type"] = 4},
+{["lv"] = 1242147142, ["offset"] = -12, ["type"] = 4},
+}
+qmxg = {
+{["value"] = 1120403456, ["offset"] = 0, ["type"] = 4},
+{["value"] = 1120403456, ["offset"] = -12, ["type"] = 4},
+}
+xqmnb(karar)
+gg.clearResults()
+end
+
+function H()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("69.5;35;33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
+  gg.editAll("230", gg.TYPE_FLOAT)
+  gg.clearResults()
+gg.toast("Megic Bullet✔️ ")
+end
+
+function K()
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("3.5;1.0;0.5;0.10000000149;200.0::512", 16, false, 536870912, 0, -1)
+gg.searchNumber("3.5;1.0;0.5;0.10000000149;200.0::512", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("999999", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("3.5;1;0.5;200;20::", 16)
+gg.getResults(200)
+gg.editAll("999999999", 16)
+gg.setRanges(32)
+gg.searchNumber("6.0;2.0;1.0::99", 16, false, 536870912, 0, -1)
+gg.searchNumber("1", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("101", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("3.5;1;0.5;200;20::", 16)
+gg.getResults(200)
+gg.editAll("999999999", 16)
+gg.clearResults()
+gg.toast(" 🧿 ᴀɪᴍʙᴏᴛ360  ")
+end
+
+function EXIT()
+print("⚡ BYNOPANİK \n TELEGRAM @BYNOPANIKHACK\n YOUTUBE @BYNOPANİK⚡")
+gg.skipRestoreState()
+gg.setVisible(true)
+  os.exit()
+end
+
+while true do
+  if gg.isVisible(true) then
+    JOKER = 1
+    gg.setVisible(false)
+  end
+  if JOKER == 1 then
+    HOME()
+  end
+end
