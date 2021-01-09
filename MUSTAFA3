@@ -1,4 +1,4 @@
-if os.date("%Y%m%d") >= "20210109" then
+if os.date("%Y%m%d") >= "20210130" then
 print("⚠️ sᴄʀɪᴘᴛ sᴜʀᴇsɪ ʙɪᴛᴍɪsᴛɪʀ  ⚠️️")
 return gg.alert("⚠️ sᴄʀɪᴘᴛ sᴜʀᴇsɪ ʙɪᴛᴍɪsᴛɪʀ  ⚠️️")
 end--Iғ
