@@ -1,4 +1,8 @@
-  
+  if os.date("%Y%m%d") >= "20210218" then
+print("⚠️ sᴄʀɪᴘᴛ sᴜʀᴇsɪ ʙɪᴛᴍɪsᴛɪʀ  ⚠️️")
+return gg.alert("⚠️ sᴄʀɪᴘᴛ sᴜʀᴇsɪ ʙɪᴛᴍɪsᴛɪʀ  ⚠️️")
+end--If
+
  function TEAMCRACKERTR()
 end
 function setvalue(address,flags,value) TEAMCRACKERTR('Modify address value(Address, value type, value to be modified)') local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
