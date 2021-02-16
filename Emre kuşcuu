@@ -1,0 +1,116 @@
+  if os.date("%Y%m%d") >= "20210316" then
+print("⚠️ sᴄʀɪᴘᴛ sᴜʀᴇsɪ ʙɪᴛᴍɪsᴛɪʀ  ⚠️️")
+return gg.alert("⚠️ sᴄʀɪᴘᴛ sᴜʀᴇsɪ ʙɪᴛᴍɪsᴛɪʀ  ⚠️️")
+end--If
+
+userpassword = gg.prompt({
+  " 🔑ᴋᴇʏ'ɪ ɢɪʀ: "
+}, {""}, {"text"})
+password = {"138"}
+isTrue = false
+for i = 1, #password do
+  if userpassword[1] == password[i] then
+    isTrue = true
+  end
+end
+if isTrue == true then
+  gg.alert("✔️ᴋᴇʏ ᴅᴏɢʀᴜ✔️")
+else
+  gg.alert("❌ᴋᴇʏ ʏᴀɴʟɪs❌")
+  os.exit()
+end
+   
+ function TEAMCRACKERTR()
+end
+function setvalue(address,flags,value) TEAMCRACKERTR('Modify address value(Address, value type, value to be modified)') local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
+function Main()
+  CRACKER = gg.multiChoice({
+    "🎯SEKMEME",
+    "🎭HEADSHOT ̴",
+    "⚔️MAGİC",
+    "🔥AİMBOT",  
+    "🚶GENİŞ AÇI",
+    "🔻ÇIKIŞ🔺",
+  }, nil, (os.date("%A, %d %B %Y %H:%M%p ")))
+  if CRACKER == nil then
+  else
+    if CRACKER[1] == true then
+      Less()
+    end
+    if CRACKER[2] == true then
+      Cross()
+    end
+    if CRACKER[3] == true then
+      Magic()
+    end
+    if CRACKER[4] == true then
+      AIMBOT()
+    end
+     if CRACKER[5] == true then
+      Wide()
+    end
+    if CRACKER[6] == true then
+      Exit()
+    end
+  end
+  XGCK = -1
+end
+function Less()
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x136BDDC
+setvalue(so+py,4,0)
+gg.toast("@BYNOPANİK")
+end
+
+function Cross()
+setvalue(gg.getRangesList("libUE4.so")[1].start+0x93A117C,16,9999)
+setvalue(gg.getRangesList("libUE4.so")[1].start+0x93A1180,16,9999)
+gg.toast("\n𒊹︎︎︎/Xᴀ LɪʙBᴀsᴇ Cᴏᴅᴇ Oɴ •✓\n𒊹︎︎︎TELEGRAM BYNOPANİK•✓\n𒊹︎︎︎ATİF")
+end
+
+function Magic()
+gg.clearResults()
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x3C491D0
+setvalue(so+py,16,55)
+gg.clearResults()
+gg.toast("Magic Bullet Activated")
+end
+
+function AIMBOT()
+setvalue(gg.getRangesList('libUE4.so')[1].start+0x258B740,4,0)
+gg.toast("\n𒊹︎︎︎/Xᴀ LɪʙBᴀsᴇ Cᴏᴅᴇ Oɴ •✓\n𒊹︎︎︎Tᴇʟᴇɢʀᴀᴍ: BYNOPANİK•✓\n𒊹︎︎︎AİMBOT AKTİF")
+end
+
+function Wide()
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x381FCB0
+setvalue(so+py,16,254.70928955078)
+gg.toast("@BYNOPANİK")
+end
+
+function Exit()
+  gg.skipRestoreState()
+  os.exit()
+end
+
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if XGCK == 1 then
+    Main()
+  end
+end
+
+
+
+
+so = gg.getRangesList("libUE4.so")[1].start 
+py = 0x93A117C
+setvalue(so+py,16,9999)
+so = gg.getRangesList("libUE4.so")[1].start 
+py = 0x93A1180
+setvalue(so+py,16,9999)
